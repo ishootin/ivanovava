@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="vendor/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <script src="vendor/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Ivanovava</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ссылка 1<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ссылка 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Список
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ссылка списка-1</a>
+                <a class="dropdown-item" href="#">Ссылка списка 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Ссылка после линии</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="row">
+    <img src="/img/main_photo.jpg" alt="Whoops" class="main_photo col-s-12 col-md-3">
+    <div class="col-s-12 col-md-9">
+      <div class="block"><h1 class="display-4">Иванова Валерия Алексеевна</h1>
+      <p class="lead">Младший лаборант ФТИ им.Иоффе, выпускница Санкт-Петербургского 
+      Политехнического университета</p>
+      <ul class="list-unstyled">
+        <a href="#work"><li>Область работы</li></a>
+        <a href="#achievements"><li>Достижения и ....</li></a>
+        <a href="#certificates"> <li>Дипломы и сертификаты</li></a>
+        <a href="#feedback"><li>Отзывы</li></a>
+        <a href="#contact"> <li>Как со мной связаться</li></a>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="work" id="work">
+  <div class="container">
+    <h3 class="header">Область работы</h3>
+    <p>Здесь будет текст про твою область работы, про репетиторство немного написать, про работу в лабе и тд
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+      culpa qui officia deserunt mollit anim id est laborum
+    </p>
+  </div>
+</section>
+
+<section class="achievements" id="achievements">
+  <div class="container">
+    <h3 class="header">Мои достижения</h3>
+    <p>Небольшой текст про то, что все еще впереди, и что-нибудь воодушевляющее</p>
+    <ul class="list-unstyled">
+      <li>Достижение 1</li>
+      <li>Достижение 2</li>
+      <li>Достижение 3</li>
+      <li>Достижение 4</li>
+      <li>Достижение 5</li>
+      <li>Достижение 6</li>
+    </ul>
+  </div>
+</section>
+
+<section class="certificates" id="certificates">
+  <div class="container">
+    <h3 class="header">Дипломы и сертификаты</h3>
+    <p>Небольшое вступление про дипломы</p>
+    <ul class="list-unstyled">
+      <li>Диплом 1</li>
+      <li>Сертификат 2</li>
+      <li>Сертификат 3</li>
+      <li>Сертификат 4</li>
+      <li>Сертификат 5</li>
+      <li>Сертификат 6</li>
+    </ul>
+  </div>
+</section>
+
+<section class="feedback" id="feedback">
+  <div class="container">
+    <h3 class="header">Отзывы и благодарности</h3>
+    <p style="font-size:smaller;"><i>Я не уверен, нужна ли эта часть на самом деле, потому что создать систему, где каждый может
+      оставлять комментарии (и заставить сделать хорошие отзывы мальчиков) я пока не умею, а в таком виде
+      это немного кринжово
+    </i></p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide-1.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h3 class="header">Как со мной связаться</h3>
+    <p>Тут надо добавить текст, я не уверен, сделать ли просто поток текста с заголовками в виде</p>
+    <h5>Telegram</h5>
+    <p>Способ связаться через телегу</p>
+    <h5>Whatsapp</h5>
+    <P>Способ связаться через Вацап</P><br>
+    <p>Или в виде</p>
+    <div class="row">
+      <div class="col-6">
+        <ul class="list-unstyled">
+          <li><b>Telegram</b></li>
+          <li><b>Whatsapp</b></li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <ul class="list-unstyled">
+          <li>Ссылка в телегу</li>
+          <li>Номер в вацапе</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <h5>Footer</h5>
+        <ul class="list-unstyled">
+          <li>Numb1</li>
+          <li>Numb2</li>
+          <li>Numb3</li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5>Footer</h5>
+        <ul class="list-unstyled">
+          <li>Numb1</li>
+          <li>Numb2</li>
+          <li>Numb3</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <h5>Contacts</h5>
+        <ul class="list-unstyled">
+          <li>Numb1</li>
+          <li>Numb2</li>
+          <li>Numb3</li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <h5>Icons</h5>
+        <ul class="list-unstyled">
+          <li>Numb1</li>
+          <li>Numb2</li>
+          <li>Numb3</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
